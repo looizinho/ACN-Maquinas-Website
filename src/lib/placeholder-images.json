@@ -1,3 +1,106 @@
 {
-  "placeholderImages": []
+  "placeholderImages": [
+    {
+      "id": "hero-torque-equipment",
+      "description": "High-quality industrial photo of torque equipment in operation.",
+      "imageUrl": "https://images.unsplash.com/photo-1513828583688-c52646db42da?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxpbmR1c3RyaWFsJTIwZXF1aXBtZW50fGVufDB8fHx8MTc2MTI2OTM1MXww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "industrial equipment"
+    },
+    {
+      "id": "service-torqueamento",
+      "description": "Image for industrial torqueing service.",
+      "imageUrl": "https://images.unsplash.com/photo-1744302570940-0f44e1b2a9f6?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw1fHxpbmR1c3RyaWFsJTIwd3JlbmNofGVufDB8fHx8MTc2MTMwNjgzMHww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "industrial wrench"
+    },
+    {
+      "id": "service-tensionamento",
+      "description": "Image for bolt tensioning service.",
+      "imageUrl": "https://images.unsplash.com/photo-1601567260830-1527a324229a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHxpbmR1c3RyaWFsJTIwYm9sdHN8ZW58MHx8fHwxNzYxMzA2ODMwfDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "industrial bolts"
+    },
+    {
+      "id": "service-hidrostatico",
+      "description": "Image for hydrostatic testing service.",
+      "imageUrl": "https://images.unsplash.com/photo-1513828583688-c52646db42da?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwzfHxpbmR1c3RyaWFsJTIwcGlwZXN8ZW58MHx8fHwxNzYxMzA2ODMwfDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "industrial pipes"
+    },
+    {
+      "id": "service-corte-a-frio",
+      "description": "Image for cold pipe cutting service.",
+      "imageUrl": "https://images.unsplash.com/photo-1547402270-dadfe30b55b3?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw5fHxwaXBlJTIwY3V0dGluZ3xlbnwwfHx8fDE3NjEzMDY4MzB8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "pipe cutting"
+    },
+    {
+      "id": "service-manutencao",
+      "description": "Image for torque tool maintenance service.",
+      "imageUrl": "https://images.unsplash.com/photo-1515787766711-f9de50ca9023?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHx0b29sJTIwbWFpbnRlbmFuY2V8ZW58MHx8fHwxNzYxMzA2ODMwfDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "tool maintenance"
+    },
+    {
+      "id": "equip-1",
+      "description": "Image of a hydraulic torque wrench.",
+      "imageUrl": "https://images.unsplash.com/photo-1615746363486-92cd8c5e0a90?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwzfHxoeWRyYXVsaWMlMjB3cmVuY2h8ZW58MHx8fHwxNzYxMzA2ODMwfDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "hydraulic wrench"
+    },
+    {
+      "id": "equip-2",
+      "description": "Image of a bolt tensioner.",
+      "imageUrl": "https://picsum.photos/seed/107/600/400",
+      "imageHint": "bolt tensioner"
+    },
+    {
+      "id": "equip-3",
+      "description": "Image of a pneumatic torque wrench.",
+      "imageUrl": "https://images.unsplash.com/photo-1701448150058-43d6d199b103?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw4fHxwbmV1bWF0aWMlMjB3cmVuY2h8ZW58MHx8fHwxNzYxMzA2ODMwfDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "pneumatic wrench"
+    },
+    {
+      "id": "equip-4",
+      "description": "Image of a hydrostatic test pump.",
+      "imageUrl": "https://images.unsplash.com/photo-1738964847538-54f067b996cf?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw4fHx0ZXN0JTIwcHVtcHxlbnwwfHx8fDE3NjEzMDY4MzB8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "test pump"
+    },
+    {
+      "id": "map-location",
+      "description": "Static map showing the location of ACN Máquinas.",
+      "imageUrl": "https://images.unsplash.com/photo-1730317195705-8a265a59ed1b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwzfHxjaXR5JTIwbWFwfGVufDB8fHx8MTc2MTMwMzY4NXww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "city map"
+    },
+    {
+      "id": "client-logo-1",
+      "description": "Placeholder for a client logo.",
+      "imageUrl": "https://images.unsplash.com/photo-1620288627223-53302f4e8c74?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw5fHxjb21wYW55JTIwbG9nb3xlbnwwfHx8fDE3NjEyNTk0NzN8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "company logo"
+    },
+    {
+      "id": "client-logo-2",
+      "description": "Placeholder for a client logo.",
+      "imageUrl": "https://images.unsplash.com/photo-1619551734325-81aaf323686c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw2fHxjb21wYW55JTIwbG9nb3xlbnwwfHx8fDE3NjEyNTk0NzN8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "company logo"
+    },
+    {
+      "id": "client-logo-3",
+      "description": "Placeholder for a client logo.",
+      "imageUrl": "https://images.unsplash.com/photo-1599305445671-ac291c95aaa9?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxjb21wYW55JTIwbG9nb3xlbnwwfHx8fDE3NjEyNTk0NzN8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "company logo"
+    },
+    {
+      "id": "client-logo-4",
+      "description": "Placeholder for a client logo.",
+      "imageUrl": "https://images.unsplash.com/photo-1620288627223-53302f4e8c74?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw5fHxjb21wYW55JTIwbG9nb3xlbnwwfHx8fDE3NjEyNTk0NzN8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "company logo"
+    },
+    {
+      "id": "client-logo-5",
+      "description": "Placeholder for a client logo.",
+      "imageUrl": "https://images.unsplash.com/photo-1619551734325-81aaf323686c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw2fHxjb21wYW55JTIwbG9nb3xlbnwwfHx8fDE3NjEyNTk0NzN8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "company logo"
+    },
+    {
+      "id": "client-logo-6",
+      "description": "Placeholder for a client logo.",
+      "imageUrl": "https://images.unsplash.com/photo-1562783912-21ad31ee2a83?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwzfHxjb21wYW55JTIwbG9nb3xlbnwwfHx8fDE3NjEyNTk0NzN8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "company logo"
+    }
+  ]
 }
