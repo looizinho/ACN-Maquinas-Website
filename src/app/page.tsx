@@ -52,12 +52,6 @@ export default function Home() {
                 <Button asChild size="lg" variant="accent">
                   <Link href="/contato">Solicitar Orçamento</Link>
                 </Button>
-                <Button asChild size="lg" variant="secondary">
-                  <Link href="https://wa.me/5521964302781" target="_blank">
-                    <MessageCircle className="mr-2 h-5 w-5" />
-                    Falar no WhatsApp
-                  </Link>
-                </Button>
               </div>
             </div>
           </div>
