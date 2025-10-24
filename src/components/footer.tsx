@@ -24,12 +24,6 @@ export function Footer() {
               <Button asChild size="lg" variant="accent">
                 <Link href="/contato">Solicitar Orçamento</Link>
               </Button>
-              <Button asChild size="lg" variant="outline">
-                <Link href={contactDetails.whatsapp} target="_blank">
-                  <MessageCircle className="mr-2 h-5 w-5" />
-                  Falar no WhatsApp
-                </Link>
-              </Button>
             </div>
           </div>
         </div>
