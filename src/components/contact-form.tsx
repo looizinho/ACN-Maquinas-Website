@@ -1,10 +1,9 @@
 'use client';
 
-import { useFormState } from 'react-dom';
 import { useForm } from 'react-hook-form';
 import { zodResolver } from '@hookform/resolvers/zod';
 import { z } from 'zod';
-import { useEffect } from 'react';
+import { useRouter } from 'next/navigation';
 
 import { Button } from '@/components/ui/button';
 import { Input } from '@/components/ui/input';
@@ -25,11 +24,9 @@ import {
   FormMessage,
 } from '@/components/ui/form';
 import { useToast } from '@/hooks/use-toast';
-import { submitContactForm, type State } from '@/app/actions';
 import { solutionLinks } from '@/lib/data';
 import { Loader2, Send } from 'lucide-react';
 import { cn } from '@/lib/utils';
-import { useFormStatus } from 'react-dom';
 
 const contactSchema = z.object({
   name: z.string().min(2, { message: 'O nome deve ter pelo menos 2 caracteres.' }),
@@ -40,11 +37,10 @@ const contactSchema = z.object({
   message: z.string().min(10, { message: 'A mensagem deve ter pelo menos 10 caracteres.' }),
 });
 
-function SubmitButton() {
-  const { pending } = useFormStatus();
+function SubmitButton({ isSubmitting }: { isSubmitting: boolean }) {
   return (
-    <Button type="submit" disabled={pending} className="w-full" variant="accent">
-      {pending ? (
+    <Button type="submit" disabled={isSubmitting} className="w-full" variant="accent">
+      {isSubmitting ? (
         <>
           <Loader2 className="mr-2 h-4 w-4 animate-spin" />
           Enviando...
@@ -62,8 +58,7 @@ function SubmitButton() {
 
 export function ContactForm({ className, defaultService }: { className?: string; defaultService?: string }) {
   const { toast } = useToast();
-  const initialState = { message: null, errors: {} };
-  const [state, dispatch] = useFormState<State, FormData>(submitContactForm, initialState);
+  const router = useRouter();
 
   const form = useForm<z.infer<typeof contactSchema>>({
     resolver: zodResolver(contactSchema),
@@ -77,21 +72,23 @@ export function ContactForm({ className, defaultService }: { className?: string;
     },
   });
 
-  useEffect(() => {
-    if (state.message) {
-      if (state.errors) {
-        toast({
-          title: 'Erro no formulário',
-          description: state.message,
-          variant: 'destructive',
-        });
-      }
+  const onSubmit = form.handleSubmit(async (values) => {
+    try {
+      console.log('Form data:', values);
+      router.push('/obrigado');
+    } catch (error) {
+      console.error('Falha ao enviar formulário de contato:', error);
+      toast({
+        title: 'Erro no formulário',
+        description: 'Não foi possível enviar sua mensagem. Tente novamente.',
+        variant: 'destructive',
+      });
     }
-  }, [state, toast]);
+  });
 
   return (
     <Form {...form}>
-      <form action={dispatch} className={cn('space-y-4', className)}>
+      <form onSubmit={onSubmit} className={cn('space-y-4', className)}>
         <FormField
           control={form.control}
           name="name"
@@ -185,7 +182,7 @@ export function ContactForm({ className, defaultService }: { className?: string;
             </FormItem>
           )}
         />
-        <SubmitButton />
+        <SubmitButton isSubmitting={form.formState.isSubmitting} />
       </form>
     </Form>
   );
