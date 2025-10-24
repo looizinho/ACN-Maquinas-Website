@@ -7,7 +7,7 @@ export const navLinks = [
   { name: 'Soluções', href: '/solucoes' },
   { name: 'Clientes e Parceiros', href: '/clientes-e-parceiros' },
   { name: 'Sobre a ACN', href: '/sobre' },
-  { name: 'Contato', href: '/contato' },
+  { name: 'Fale Conosco', href: '/contato' },
 ];
 
 export const solutionLinks = [
